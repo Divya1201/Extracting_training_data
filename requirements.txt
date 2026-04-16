@@ -1,1 +1,18 @@
 # TODO: add project dependencies
+
+numpy>=1.25
+Pillow>=10.0
+torch
+torchvision
+diffusers
+transformers
+accelerate
+open_clip_torch
+bing-image-downloader
+pandas
+pyarrow
+matplotlib
+scikit-learn
+scipy
+img2dataset
+
