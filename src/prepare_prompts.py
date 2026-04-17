@@ -29,8 +29,8 @@ BASE_PROMPTS = [
 # SIMULATE DUPLICATION (CRITICAL)
 # ==============================
 
-NUM_TOTAL_PROMPTS = 30   #100   # simulate "many captions"
-HIGH_DUP_FACTOR = 10     #20      # strong duplication
+NUM_TOTAL_PROMPTS = 100   #30   # simulate "many captions"
+HIGH_DUP_FACTOR = 20     #10      # strong duplication
 
 
 def _load_captions_csv(path: Path, caption_column: str) -> list[str]:
