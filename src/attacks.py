@@ -339,7 +339,7 @@ def _mean_intra_clique_dist(
     Paper: "ordering them by the mean distance between images in the clique
     to identify generations that we predict are likely to be memorised."
     """
-    if len(clique) < 2:     #10
+    if len(clique) < 10:     #3
         return 0.0
     total, count = 0.0, 0
     for i in range(len(clique)):
