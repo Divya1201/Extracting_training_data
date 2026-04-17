@@ -30,9 +30,9 @@ def load_prompts(file="prompts.txt"):
 
 PROMPTS = load_prompts()
 
-IMAGES_PER_PROMPT = 50  #500   # REQUIRED (paper: 500 generations)
+IMAGES_PER_PROMPT = 500  #50   # REQUIRED (paper: 500 generations)
 
-BATCH_SIZE =  4  #8            # GPU: 6–8 | CPU: 2–4
+BATCH_SIZE =  8  #4            # GPU: 6–8 | CPU: 2–4
 
 # ==============================
 # MAIN
