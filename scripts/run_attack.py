@@ -40,7 +40,7 @@ SRC_DIR = REPO_ROOT / "src"
 if str(SRC_DIR) not in sys.path:
     sys.path.insert(0, str(SRC_DIR))
 
-from attack import AttackConfig, AttackResult, run_extraction_attack
+from attacks import AttackConfig, AttackResult, run_extraction_attack
 from clip_utils import embed_directory
 from visualize import show_pair, show_top_results
 
