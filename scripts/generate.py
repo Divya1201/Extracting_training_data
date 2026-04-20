@@ -28,7 +28,7 @@ def load_prompts(file="prompts.txt"):
     with open(file, "r") as f:
         return [line.strip() for line in f.readlines()]
 
-PROMPTS = load_prompts()
+PROMPTS = load_prompts("data/laion_paper_subset/prompts.txt")
 
 IMAGES_PER_PROMPT = 500  #50   # REQUIRED (paper: 500 generations)
 
