@@ -6,7 +6,7 @@ from pathlib import Path
 import pickle 
 
 from visualize import show_top_results
-from attack import AttackResult
+from attacks import AttackResult
 
 df = pd.read_csv("attack_results.csv")
 print(df.head())
